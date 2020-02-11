@@ -55,7 +55,13 @@ a:hover {
 }
 
 .highlighted {
+    color: #fff;
     background-color: #b84444;
+}
+
+.highlighted-yellow {
+    color: #fff;
+    background-color: #c09e5c;
 }
 
 .panel ul {
@@ -76,6 +82,15 @@ img {
 div.sponsors {
     display: flex;
     align-items: center;
+}
+
+.mouflons {
+    height: 128px;
+}
+
+.mouflons img {
+    height: 100px;
+    width:100px;
 }
 
 @media (max-width: 500px) {
