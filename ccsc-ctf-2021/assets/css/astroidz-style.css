@@ -1,0 +1,17 @@
+#astroidzContainer {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	width: 100vw;
+	height: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1000;
+	background: url("../img/bg_scaled.png");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

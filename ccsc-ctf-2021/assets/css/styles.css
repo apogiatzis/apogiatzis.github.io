@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Anton'), url('../fonts/anton.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Rise of Kingdom Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Rise of Kingdom Regular'), url('../fonts/Rise of Kingdom.woff') format('woff');
+}
+
+.queen-text {
+    font-family: 'Rise of Kingdom Regular';
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.ctf-text {
+    font-family: 'Anton';
+    display: block !important;
+    font-size: 5.5vw;
+    text-transform: capitalize !important;
+}
+
+.title-text {
+    font-family: 'Anton';
+    letter-spacing: 6px;
+}
+
+.desc-text {
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.5vw;
+    padding: 0 16px;
+    font-size: 20px;
+}
+
+.desc-text ul {
+    list-style: none;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .desc-text {
+        font-size: 20px;
+    }
+}
+
+/* 
+@media (max-width: 1200px) {
+    .desc-text {
+        font-size: 2.5vw;
+    } 
+} */
+
+
+.about-section {
+    padding: 90px 0px;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.about-section p {
+    padding: 30px 0px;
+}
+
+/* .instructions-section {
+    min-height: 100vh;
+} */
+
+.instruction-bottom-shape-fill {
+    fill: #D5003C;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg)
+}
+
+.qw_social {
+    margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .discord-panel {
+        padding: 16px;
+        margin: 0px !important;
+        width: 100%;
+        display: block;
+    }
+}
+
+.discord-panel {
+    float: right;
+    clear: right;
+    margin: 0 16px;
+}
+
+.footer {
+
+    background: #ffffff;
+    color: #1a1a1a;
+    padding: 30px 20px 20px 30px;
+    text-align: center;
+}
+
+.section-sponsors {
+    background: #ffffff;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 120px 0px 120px 0px;
+    padding: 40px 0px 40px 0px
+}
+
+.white-fill-bottom {
+    fill: #ffffff !important;
+    bottom: -1px;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.black {
+    color: black;
+}
+
+.rules-container {
+    padding-bottom: 60px
+}
+
+.auspices-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.auspices-item {
+    min-width: 300px;
+    max-width: 300px;
+    flex: 1;
+}
+
+.auscpices-img {
+    max-width: 300px;
+
+}
+
+/* countdown */
+#countdown-wrapper {
+    font-family: 'Anton';
+    position: relative;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+    background: none;
+    text-align: center;
+}
+
+#countdown {
+    margin: 0;
+    padding: 0;
+}
+
+ul#countdown li {
+    display: inline-block;
+}
+
+ul#countdown li span {
+    font-size: 40px;
+    line-height: 55px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #000;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+ul#countdown li span.seconds {
+    font-size: 40px;
+    line-height: 55px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #D5003C;
+    text-shadow: 1px 1px 2px #000;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+ul#countdown li span::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+}
+
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+    text-shadow: 1px 1px 2px #000;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-style: normal;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+.animate {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.sticky {
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    display: hidden;
+    background-color: #000000 !important;
+    width: 100%;
+}
