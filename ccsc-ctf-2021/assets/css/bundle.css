@@ -1790,7 +1790,7 @@ h1.entry-title {
     }
 }
 
-@media (min-width:385px) {
+@media (min-width:351px) {
     .elementaaor-section.elementaaor-section-height-full {
         height: 100vh
     }

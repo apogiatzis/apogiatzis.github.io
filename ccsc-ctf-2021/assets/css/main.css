@@ -4401,7 +4401,7 @@ aside ul li.cat-item, .btn, a.btn { border-color: rgba(0, 0, 0, 0.25); }
   .nav-previous, .nav-next { width: 100%; max-width: 999px; }
   .qw-sharepage { margin: 10px 0; height: 25px; }
   .qw-details p, .qw-buylinks p { text-align: left; }
-  .qw-header-fixed { height: 50px; }
+  .qw-header-fixed { height: 70px; }
   .qw-header-fixed .qw_site_logo { max-width: 220px; height: auto; max-height: 50px; padding: 0 5px; }
   .qw-header-fixed .qw_site_logo img.img-responsive { max-height: 30px; max-width: auto; margin: 0 auto; }
   .menu-qwicon { left: 10px; top: 10px; }

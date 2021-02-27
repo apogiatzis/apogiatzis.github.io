@@ -63,7 +63,17 @@
     background-color: rgba(0, 0, 0, 0.75);
 }
 
+
 .about-section p {
+    padding: 30px 0px;
+}
+
+.prizes-section {
+    padding: 90px 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.prizes-section p {
     padding: 30px 0px;
 }
 
@@ -71,8 +81,12 @@
     min-height: 100vh;
 } */
 
+.instructions-section a {
+    text-decoration: underline !important;
+}
+
 .instruction-bottom-shape-fill {
-    fill: #D5003C;
+    fill: #D5003C !important;
     -webkit-transform-origin: center;
     -ms-transform-origin: center;
     transform-origin: center;
@@ -90,6 +104,16 @@
         margin: 0px !important;
         width: 100%;
         display: block;
+    }
+
+    .qw_site_logo {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .qw_site_logo {
+        margin-top: 5px !important;
     }
 }
 
@@ -122,6 +146,13 @@
     transform: rotate(180deg)
 }
 
+.rules-black-fill {
+    fill: rgba(0, 0, 0, 0.75) !important;
+    -webkit-transform: rotate(180deg) scale(1, -1) ;
+    -ms-transform: rotate(180deg) scale(1, -1) ;
+    transform: rotate(180deg) scale(1, -1);
+}
+
 .black {
     color: black;
 }
@@ -140,9 +171,11 @@
 }
 
 .auspices-item {
+    text-align: center;
     min-width: 300px;
     max-width: 300px;
     flex: 1;
+    margin-bottom: 16px;
 }
 
 .auscpices-img {
@@ -161,7 +194,7 @@
 }
 
 #countdown {
-    margin: 0;
+    margin: 8px 0 16px 20px !important;
     padding: 0;
 }
 
@@ -230,3 +263,4 @@ ul#countdown li p.timeRefSeconds {
     background-color: #000000 !important;
     width: 100%;
 }
+
