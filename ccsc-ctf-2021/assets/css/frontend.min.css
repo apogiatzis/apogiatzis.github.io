@@ -907,7 +907,7 @@ h1.entry-title {
 }
 
 .elementaaor-widget:not(:last-child) {
-    margin-bottom: 20px
+    margin-bottom: 0px
 }
 
 .elementaaor-widget:not(:last-child).elementaaor-absolute,

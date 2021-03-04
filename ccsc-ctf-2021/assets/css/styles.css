@@ -143,7 +143,16 @@
     bottom: -1px;
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
-    transform: rotate(180deg)
+    transform: rotate(180deg);
+}
+
+@media (min-width: 1080px) {
+    .white-fill-bottom path {
+        -webkit-transform: scaleY(0.5) !important;
+        -ms-transform:scaleY(0.5) !important;
+        transform: scaleY(0.5) !important;
+        transform-origin: top !important;
+    }
 }
 
 .rules-black-fill {
@@ -158,7 +167,7 @@
 }
 
 .rules-container {
-    padding-bottom: 60px
+    padding-bottom: 80px
 }
 
 .auspices-container {
@@ -172,9 +181,11 @@
 
 .auspices-item {
     text-align: center;
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 200px;
+    max-width: 200px;
     flex: 1;
+    margin-right: 8px;
+    margin-left: 8px;
     margin-bottom: 16px;
 }
 
@@ -264,3 +275,45 @@ ul#countdown li p.timeRefSeconds {
     width: 100%;
 }
 
+.organisers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.organisers .logos-container {
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center  ;
+}
+
+.organisers .logos-container img {
+    height: 50px;
+    margin-right: 16px;
+}
+
+.discord-btn { 
+    font-size: 18px;
+    padding: 16px !important;
+    border-radius: 0px;
+    background-color: #D5003C !important;
+    color: #FFFFFF !important;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FF0060;
+}
+
+.discord-btn:hover {
+    font-size: 18px;
+    padding: 16px;
+    border-radius: 0px;
+    background-color: #FFFFFF !important;
+    color: #D5003C !important;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FF0060;
+}
